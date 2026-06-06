@@ -33,8 +33,6 @@ Selain sebagai media pengumpulan tugas, repository ini juga diharapkan dapat men
 | Pertemuan 6 | Preprocessing Dataset Titanic | [Buka Notebook](./Pertemuan6_NoviShandi_240401010291.ipynb) |
 | Pertemuan 7 | Prediksi Gaji Menggunakan Regresi Linear | [Buka Notebook](./Pertemuan7_NoviShandi_240401010291.ipynb) |
 
-> **Catatan:** Sesuaikan nama file notebook di atas apabila berbeda dengan yang ada pada repository GitHub Anda.
-
 ---
 
 ## Tools dan Library yang Digunakan
