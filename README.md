@@ -5,7 +5,7 @@
 **Nama** : Novi Shandi  
 **NIM** : 240401010291  
 **Kelas** : IF401  
-**Program Studi** : PPJ Informatika
+**Program Studi** : PJJ Informatika
 
 ---
 
@@ -32,6 +32,11 @@ Selain sebagai media pengumpulan tugas, repository ini juga diharapkan dapat men
 | Pertemuan 5 | Dashboard Visualisasi Data Dataset Tips | [Buka Notebook](./Pertemuan5_NoviShandi_240401010291.ipynb) |
 | Pertemuan 6 | Preprocessing Dataset Titanic | [Buka Notebook](./Pertemuan6_NoviShandi_240401010291.ipynb) |
 | Pertemuan 7 | Prediksi Gaji Menggunakan Regresi Linear | [Buka Notebook](./Pertemuan7_NoviShandi_240401010291.ipynb) |
+| Pertemuan 9 | Algoritma Klasifikasi (Bagian 1): Logistic Regression & Decision Tree | [Buka Notebook](https://github.com/novishandi/data-science-2026/blob/main/Pertemuan9_NoviShandi_240401010291.ipynb) |
+| Pertemuan 10 | Algoritma Klasifikasi (Bagian 2): Random Forest & Imbalanced Dataset | [Buka Notebook](https://github.com/novishandi/data-science-2026/blob/main/Pertemuan10_NoviShandi_240401010291.ipynb) |
+| Pertemuan 11 | Unsupervised Learning: Clustering (K-Means & Hierarchical) | [Buka Notebook](https://github.com/novishandi/data-science-2026/blob/main/Pertemuan11_NoviShandi_240401010291.ipynb) |
+| Pertemuan 12 | Asosiasi Data (Apriori) & Sistem Rekomendasi Dasar | [Buka Notebook](https://github.com/novishandi/data-science-2026/blob/main/Pertemuan12_NoviShandi_240401010291.ipynb) |
+| Pertemuan 13 | Pengantar Deep Learning & NLP Dasar (TF-IDF) | [Buka Notebook](https://github.com/novishandi/data-science-2026/blob/main/Pertemuan13_NoviShandi_240401010291.ipynb) |
 
 ---
 
@@ -46,6 +51,9 @@ Dalam proses pembelajaran dan praktikum, saya menggunakan beberapa tools dan lib
 - Matplotlib
 - Seaborn
 - Scikit-Learn (sklearn)
+- mlxtend
+- TensorFlow / Keras
+- SciPy
 
 ---
 
@@ -82,7 +90,7 @@ Kemudian buka file notebook yang diinginkan dan jalankan seluruh cell.
 
 ---
 
-## Kesimpulan Perjalanan Belajar Data Science (Pertemuan 1–7)
+## Kesimpulan Perjalanan Belajar Data Science (Pertemuan 1–13)
 
 Selama mengikuti pembelajaran Data Science dari Pertemuan 1 hingga Pertemuan 7, saya telah mempelajari berbagai konsep dasar yang menjadi fondasi dalam analisis data dan machine learning.
 
@@ -91,5 +99,9 @@ Pembelajaran dimulai dari pengenalan Python dan penggunaan Jupyter Notebook, kem
 Pada tahap berikutnya, saya belajar melakukan preprocessing data, seperti menangani missing values, encoding data kategorikal, pembagian data train-test, dan feature scaling menggunakan dataset Titanic. Terakhir, saya mempelajari implementasi dasar machine learning dengan membangun model Regresi Linear untuk melakukan prediksi.
 
 Melalui rangkaian praktikum ini, saya memperoleh pemahaman yang lebih baik mengenai alur kerja Data Science, mulai dari pengumpulan data, eksplorasi, pembersihan data, visualisasi, hingga pembuatan model prediksi sederhana.
+
+Memasuki paruh kedua perkuliahan, saya mempelajari algoritma klasifikasi mulai dari Logistic Regression dan Decision Tree beserta metrik evaluasinya (Confusion Matrix, Accuracy, Precision, Recall, F1-Score), dilanjutkan dengan metode ensemble Random Forest dan penanganan imbalanced dataset pada kasus Customer Churn. Setelah itu saya beralih ke Unsupervised Learning, yaitu clustering menggunakan K-Means dan Hierarchical Clustering dengan Metode Elbow untuk menentukan jumlah cluster optimal, serta Association Rule Mining dengan algoritma Apriori untuk Market Basket Analysis dan konsep sistem rekomendasi. Pembelajaran ditutup dengan pengantar Deep Learning melalui Artificial Neural Network menggunakan Keras, dan dasar Natural Language Processing dengan TF-IDF untuk analisis sentimen.
+
+Pelajaran terpenting yang saya peroleh adalah bahwa pemilihan metrik evaluasi harus disesuaikan dengan konteks masalah, bukan sekadar mengejar Accuracy tertinggi. Pada kasus diagnosis kanker dan prediksi churn yang datanya tidak seimbang, Recall justru menjadi metrik yang paling kritis karena kesalahan melewatkan kasus positif berdampak jauh lebih besar daripada alarm palsu.
 
 Repository ini merupakan dokumentasi proses belajar saya dan akan terus dikembangkan seiring bertambahnya materi dan pengalaman dalam bidang Data Science.
